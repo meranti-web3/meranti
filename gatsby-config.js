@@ -1,12 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `Meranti Web3`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://meranti.fr`,
   },
-  plugins: [{
-    resolve: 'gatsby-plugin-google-analytics',
-    options: {
-      "trackingId": "G-GKZE7CF2KD"
-    }
-  }]
+  plugins: [
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "G-GKZE7CF2KD",
+      },
+    },
+  ],
 };
