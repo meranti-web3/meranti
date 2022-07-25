@@ -1,0 +1,23 @@
+{
+  "name": "meranti-web3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "meranti-web3",
+  "author": "Meranti SARL",
+  "keywords": [
+    "Meranti SARL", "Mulhouse", "Web3", "Web", "Consulting", "Blockchain", "Crypto"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.19.2",
+    "gatsby-plugin-google-analytics": "^4.19.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
