@@ -5,9 +5,13 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: "G-GKZE7CF2KD",
+        trackingIds: ["G-GKZE7CF2KD"],
+      },
+      pluginConfig: {
+        head: true,
+        respectDNT: true,
       },
     },
   ],

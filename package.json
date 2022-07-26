@@ -5,7 +5,13 @@
   "description": "meranti-web3",
   "author": "Meranti SARL",
   "keywords": [
-    "Meranti SARL", "Mulhouse", "Web3", "Web", "Consulting", "Blockchain", "Crypto"
+    "Meranti SARL",
+    "Mulhouse",
+    "Web3",
+    "Web",
+    "Consulting",
+    "Blockchain",
+    "Crypto"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -16,7 +22,7 @@
   },
   "dependencies": {
     "gatsby": "^4.19.2",
-    "gatsby-plugin-google-analytics": "^4.19.0",
+    "gatsby-plugin-google-gtag": "^4.19.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }
