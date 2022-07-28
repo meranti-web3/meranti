@@ -1,3 +1,3 @@
 import "@fontsource/barlow";
 
-import "./src/components/layout.css";
+import "./src/components/main.css";

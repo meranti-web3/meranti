@@ -1,11 +1,13 @@
 import * as React from "react";
 
-import { Seo } from "../components/seo";
+import { PageHeader } from "../components/PageHeader";
 
 function IndexPage() {
   return (
     <div>
-      <h1>Meranti - Web3 à Mulhouse</h1>
+      <h1 className="text-3xl font-bold underline">
+        Meranti - Web3 à Mulhouse
+      </h1>
       <p>
         Développement d'applications Web et Blockchain au service de l'économie
         Mulhousienne.
@@ -25,5 +27,5 @@ function IndexPage() {
 export default IndexPage;
 
 export function Head() {
-  return <Seo />;
+  return <PageHeader />;
 }
