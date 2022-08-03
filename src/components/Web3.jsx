@@ -23,8 +23,8 @@ export function Web3() {
           </p>
 
           <p className="mt-4 font-display text-sm text-blue-100">
-            Associer un bien digital à leur propriétaire par leur compte
-            numérique.
+            Associer un bien digital à leur propriétaire au travers de leur
+            Wallet.
           </p>
         </div>
 
