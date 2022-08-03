@@ -9,7 +9,7 @@ export function Contact() {
         </h2>
         <div>
           <h3 className="text-lg leading-6 font-medium text-gray-900 text-extrabold">
-            Mulhouse
+            Meranti
           </h3>
           <div className="mt-2 text-base text-gray-500">
             <p>16 rue de Steinbach</p>
