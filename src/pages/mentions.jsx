@@ -1,11 +1,12 @@
 import * as React from "react";
+
 import { PageHeader } from "../components/PageHeader";
 import { PageFooter } from "../components/PageFooter";
 import { PageHead } from "../components/PageHead";
 
 function MentionsPage() {
   return (
-    <div className="flex h-full flex-col">
+    <div className="flex h-full flex-col bg-slate-50">
       <PageHeader />
       <main>
         <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">

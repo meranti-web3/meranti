@@ -18,7 +18,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "build-css": "npx tailwindcss -i ./src/components/main.css -o ./public/main.css --watch"
   },
   "dependencies": {
     "@fontsource/barlow": "^4.5.7",
