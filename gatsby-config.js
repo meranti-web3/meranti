@@ -5,5 +5,5 @@ module.exports = {
     description:
       "Developpement Web3 - Web + Blockchain - a Mulhouse et environs"
   },
-  plugins: []
+  plugins: ["gatsby-plugin-postcss"]
 };

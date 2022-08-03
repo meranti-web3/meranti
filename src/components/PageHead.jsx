@@ -8,7 +8,6 @@ export function PageHead() {
     <>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link href="main.css" rel="stylesheet" />
     </>
   );
 }
