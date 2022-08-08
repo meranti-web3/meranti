@@ -2,8 +2,8 @@ import * as React from "react";
 
 export function Contact() {
   return (
-    <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-      <div className="grid grid-cols-2 gap-8">
+    <div className="max-w-7xl mx-auto py-16 px-6 sm:px-6 lg:py-24 lg:px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
           Contactez-nous
         </h2>

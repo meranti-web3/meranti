@@ -14,11 +14,11 @@ export function Web3() {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-x-8 mt-16">
+      <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-x-8 mt-16">
         <div className="relative">
           <h3 className="mt-6 text-2xl font-medium text-white">NFT</h3>
 
-          <p className="mt-2 font-display text-xl text-blue-100">
+          <p className="mt-2 font-display text-xl text-cyan-300">
             Propriété digitale
           </p>
 
@@ -31,7 +31,7 @@ export function Web3() {
         <div className="relative">
           <h3 className="mt-6 text-2xl font-medium text-white">Crypto</h3>
 
-          <p className="mt-2 font-display text-xl text-blue-100">
+          <p className="mt-2 font-display text-xl text-cyan-300">
             Monnaie digitale
           </p>
 
@@ -44,7 +44,7 @@ export function Web3() {
         <div className="relative">
           <h3 className="mt-6 text-2xl font-medium text-white">DeFi</h3>
 
-          <p className="mt-2 font-display text-xl text-blue-100">
+          <p className="mt-2 font-display text-xl text-cyan-300">
             Services financiers décentralisés
           </p>
 
