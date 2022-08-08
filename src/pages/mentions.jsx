@@ -70,7 +70,14 @@ function MentionsPage() {
             </div>
             <div className="border-t border-gray-200 px-4 py-5 text-sm text-gray-900">
               Meranti.fr ne fait pas usage de cookies et ne collecte pas de
-              données privées relatives à ses utilisateurs.
+              données privées relatives à ses utilisateurs. Contactez notre
+              délégué à la protection des données (DPO){" "}
+              <a
+                href="mailto:donnees+portal@meranti.fr"
+                className="hover:underline text-blue-600"
+              >
+                donnees@meranti.fr
+              </a>
             </div>
           </div>
         </div>

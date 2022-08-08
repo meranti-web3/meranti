@@ -16,7 +16,7 @@ export function Contact() {
             <p className="mt-1">68200 Mulhouse, France</p>
             <a
               href="mailto:contact+portal@meranti.fr"
-              className="hover:underline mt-1"
+              className="hover:underline mt-1 text-blue-600"
             >
               contact+portal@meranti.fr
             </a>
