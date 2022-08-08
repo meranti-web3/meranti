@@ -1,4 +1,5 @@
 import * as React from "react";
+import merantiLogo from "../images/meranti.svg";
 
 export function PageHeader() {
   return (
@@ -7,7 +8,12 @@ export function PageHeader() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <a aria-label="Home" href="/#">
-              Meranti
+              <img
+                width="150px"
+                className="object-cover"
+                src={merantiLogo}
+                alt="Meranti"
+              />
             </a>
           </div>
           <div className="flex md:gap-x-6">
