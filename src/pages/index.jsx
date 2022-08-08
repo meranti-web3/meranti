@@ -20,7 +20,7 @@ function IndexPage() {
         <section
           id="Web3"
           aria-label="Examples Web3"
-          className="bg-blue-600 py-20 sm:py-32"
+          className="bg-meranti-100 py-20 sm:py-32"
         >
           <Web3 />
         </section>
@@ -36,7 +36,7 @@ function IndexPage() {
         <section
           id="team"
           aria-label="Meranti Team"
-          className="bg-blue-600 py-20 sm:py-32"
+          className="bg-meranti-100 py-20 sm:py-32"
         >
           <Team />
         </section>

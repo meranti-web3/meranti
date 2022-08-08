@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.jsx", "./src/**/*.js"],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        meranti: {
+          100: "#2b70b2"
+        }
+      }
+    }
   },
   plugins: []
 };

@@ -74,7 +74,7 @@ function MentionsPage() {
               délégué à la protection des données (DPO){" "}
               <a
                 href="mailto:donnees+portal@meranti.fr"
-                className="hover:underline text-blue-600"
+                className="hover:underline text-meranti-100"
               >
                 donnees@meranti.fr
               </a>

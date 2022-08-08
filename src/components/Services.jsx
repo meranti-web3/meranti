@@ -47,7 +47,7 @@ export function Services() {
             <li key={step.name} className="relative pb-10">
               <span className="relative flex items-center group">
                 <span className="h-9 flex items-center">
-                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-blue-600 rounded-full group-hover:bg-blue-800 text-white">
+                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-meranti-100 rounded-full group-hover:bg-cyan-600 text-white">
                     {stepIdx + 1}
                   </span>
                 </span>
