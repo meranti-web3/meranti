@@ -76,8 +76,9 @@ function MentionsPage() {
                 href="mailto:donnees+portal@meranti.fr"
                 className="hover:underline text-meranti-100"
               >
-                donnees@meranti.fr
+                donnees+portal@meranti.fr
               </a>
+              .
             </div>
           </div>
         </div>
