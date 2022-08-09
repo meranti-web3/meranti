@@ -25,6 +25,7 @@
     "@fontsource/barlow": "^4.5.7",
     "@heroicons/react": "^1.0.6",
     "gatsby": "^4.19.2",
+    "gatsby-plugin-manifest": "^4.20.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
