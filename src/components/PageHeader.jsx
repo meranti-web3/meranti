@@ -1,6 +1,5 @@
 import * as React from "react";
 import merantiLogo from "../images/meranti.svg";
-import merantiIcon from "../images/icon.svg";
 
 export function PageHeader() {
   return (
@@ -8,18 +7,10 @@ export function PageHeader() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12 mr-4">
-            <a aria-label="Home" href="/#" className="hidden md:inline-block">
+            <a aria-label="Home" href="/#">
               <img
-                className="object-cover w-[150px]"
+                className="object-contain w-[150px]"
                 src={merantiLogo}
-                alt="Meranti"
-              />
-            </a>
-
-            <a aria-label="Home" href="/#" className="visible md:hidden">
-              <img
-                className="object-cover h-[26px]"
-                src={merantiIcon}
                 alt="Meranti"
               />
             </a>
