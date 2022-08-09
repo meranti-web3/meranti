@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import olivierMugshot from "../images/people/Olivier.png";
+import olivierMugshot from "../images/people/Olivier.webp";
 
 export function Team() {
   return (
