@@ -9,8 +9,7 @@ export function PageHeader() {
           <div className="flex items-center md:gap-x-12 mr-4">
             <a aria-label="Home" href="/#">
               <img
-                width="150px"
-                className="object-cover"
+                className="object-cover mr-3 pr-3 w-[150px]"
                 src={merantiLogo}
                 alt="Meranti"
               />
