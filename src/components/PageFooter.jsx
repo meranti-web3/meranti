@@ -20,7 +20,7 @@ export function PageFooter() {
             </a>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Meranti SARL - Développement Web3 à Mulhouse -{" "}
+            Meranti SARL - Agence de développement Web3 à Mulhouse -{" "}
             <a href="/mentions" className="hover:underline">
               Mentions légales
             </a>{" "}
