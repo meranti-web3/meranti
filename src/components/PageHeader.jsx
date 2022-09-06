@@ -1,6 +1,17 @@
 import * as React from "react";
 import merantiLogo from "../images/meranti.svg";
 
+function MenuItem({ href, children }) {
+  return (
+    <a
+    className="inline-block rounded-lg py-1 px-2 text-md text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+    href={ href }
+  >
+    { children }
+  </a>
+  );
+}
+
 export function PageHeader() {
   return (
     <header className="py-10">
@@ -9,37 +20,17 @@ export function PageHeader() {
           <div className="flex items-center md:gap-x-12 mr-4">
             <a aria-label="Home" href="/#">
               <img
-                className="object-contain w-[150px]"
+                className="object-contain w-[220px]"
                 src={merantiLogo}
                 alt="Meranti"
               />
             </a>
           </div>
           <div className="flex md:gap-x-6">
-            <a
-              className="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-              href="/#web3"
-            >
-              Web3
-            </a>
-            <a
-              className="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-              href="/#services"
-            >
-              Services
-            </a>
-            <a
-              className="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-              href="/#team"
-            >
-              Equipe
-            </a>
-            <a
-              className="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-              href="/#contact"
-            >
-              Contact
-            </a>
+            <MenuItem href="/#web3">Web3</MenuItem>
+            <MenuItem href="/#services">Services</MenuItem>
+            <MenuItem href="/#team">Equipe</MenuItem>
+            <MenuItem href="/#contact">Contact</MenuItem>
           </div>
         </nav>
       </div>
