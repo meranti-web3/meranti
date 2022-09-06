@@ -3,7 +3,7 @@ module.exports = {
     title: "Meranti SARL - Agence Web3 a Mulhouse",
     siteUrl: "https://www.meranti.fr",
     description:
-      "Developpement Web3 - Web + Blockchain - a Mulhouse et environs"
+      "Agence de developpement Web3 - Web + Blockchain - a Mulhouse et environs"
   },
   plugins: [
     "gatsby-plugin-postcss",
