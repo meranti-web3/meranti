@@ -2,28 +2,19 @@ import * as React from "react";
 
 const steps = [
   {
-    name: "Prise de contact",
-    description: "Vous nous contactez avec une idée, un problème, un projet."
+    name: "Vous ne savez pas que faire du Web3?",
+    description: "Les cas d'usage sont encore peu connu. Nous pouvons imaginer ensemble des usages selon votre domaine d'activite"
   },
   {
-    name: "Etude de vos besoins",
+    name: "Vous avez une idee mais ne savez pas ou commencer?",
     description:
-      "Nous convenons ensemble d'une solution qui répond spécifiquement à vos besoins."
+      "D'une idee initiale, nous apportons nos conseils pour vous aider a demarrer votre projet. Design de solution, recrutement, formation, developpement, execution, nous sommes presents a toutes les etapes"
   },
   {
-    name: "Développement Agile",
+    name: "Vous avez un projet en cours mais il n'atteint pas ses objectifs",
     description:
-      "Nous livrons continuellement une solution adaptée, même lorsque vos besoins changent."
+      "Nous faisons un etat des lieux de votre projet et vous conseillons les potentiels correctifs a apporter. Nous pouvons egalement vous aider a les mettre en oeuvre"
   },
-  {
-    name: "Feedback",
-    description:
-      "Nous incorporons votre feedback pendant le cycle de développement."
-  },
-  {
-    name: "Support",
-    description: "Nous avons accompagnons après livraison du logiciel."
-  }
 ];
 
 export function Services() {
@@ -36,19 +27,18 @@ export function Services() {
 
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Nous développons des solutions spécifiques à vos besoins et vous
-          suivons après leur livraison, afin de garantir la réussite de vos
-          projets.
+          suivons jusqu'a la reussite de vos projets. Grace a notre experience en developpement logiciel nous pouvons vous accompagner quel que soit votre degre de maturite avec les technologies du Web3.
         </p>
       </div>
 
       <nav aria-label="Progress" className="mx-auto max-w-2xl py-16">
         <ol className="overflow-hidden">
-          {steps.map((step, stepIdx) => (
+          {steps.map((step) => (
             <li key={step.name} className="relative pb-10">
               <span className="relative flex items-center group">
                 <span className="h-9 flex items-center">
-                  <span className="relative z-10 w-8 h-8 flex items-center justify-center bg-meranti-100 rounded-full group-hover:bg-cyan-600 text-white">
-                    {stepIdx + 1}
+                  <span className="relative z-10 w-4 h-1 flex items-center justify-center bg-meranti-100 group-hover:bg-cyan-600 text-white">
+                    &nbsp;
                   </span>
                 </span>
                 <span className="ml-4 min-w-0 flex flex-col">
