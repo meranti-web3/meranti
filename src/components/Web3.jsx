@@ -9,30 +9,24 @@ export function Web3() {
         </h2>
 
         <p className="mt-6 text-lg tracking-tight text-blue-100">
-          Ajoutez à vos applications Web les possibilités offertes par la
-          Blockchain et découvrez le monde du Web3.
+          Les nouvelles technologies du Web3 ouvrent la voie a un internet plus decentralise, et faciliant l'echange d'information et de biens de maniere transparente et securisee.
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-x-8 mt-16">
+      <div className="grid md:grid-cols-5 sm:grid-cols-1 gap-x-8 mt-16">
         <div className="relative">
-          <h3 className="mt-6 text-2xl font-medium text-white">NFT</h3>
-
-          <p className="mt-2 font-display text-xl text-cyan-300">
-            Propriété digitale
-          </p>
+          <h3 className="mt-6 text-2xl font-medium text-cyan-300">Décentralisation</h3>
 
           <p className="mt-4 font-display text-sm text-blue-100">
-            Associer un bien digital à leur propriétaire au travers de leur
-            Wallet.
+            La technologie de la blockchain offre une decentralisation des donnees et des applications evitant leur controle total par une entite centrale, qu'elle soit privee ou publique. Les utilisateurs peuvent reprendre le controle de leurs donnes.
           </p>
         </div>
 
         <div className="relative">
-          <h3 className="mt-6 text-2xl font-medium text-white">Crypto</h3>
+          <h3 className="mt-6 text-2xl font-medium text-white">Echanges</h3>
 
           <p className="mt-2 font-display text-xl text-cyan-300">
-            Monnaie digitale
+            Echange d'informations, biens, monnaies digitales, la blockchain 
           </p>
 
           <p className="mt-4 font-display text-sm text-blue-100">
