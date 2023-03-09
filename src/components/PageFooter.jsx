@@ -20,7 +20,7 @@ export function PageFooter() {
             </a>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Meranti Sàrl - Conseil et développement Web3 à Mulhoue, Grand Est -{" "}
+            Meranti Sàrl - Conseil et développement Web3 à Mulhouse, Grand Est -{" "}
             <a href="/mentions" className="hover:underline">
               Mentions légales
             </a>{" "}
