@@ -13,14 +13,13 @@ export function Hero() {
 
       <p className="mx-auto mt-6 max-w-4xl text-xl tracking-tight text-slate-700">
         <Emphasis>Meranti</Emphasis> conçoit des solutions{" "}
-        <Emphasis>Web3</Emphasis> sur mesure pour les startups et entreprises
-        avec une approche centrée sur l'expérience utilisateur, ou {""}
-        <Emphasis>UX design</Emphasis>.
+        <Emphasis>Web3</Emphasis> sur mesure, pour les startups et entreprises,
+        avec une approche centrée sur l'expérience utilisateur.
       </p>
 
       <p className="mx-auto mt-6 max-w-4xl text-xl tracking-tight text-slate-700">
         Nous garantissons les plus hauts standards de{" "}
-        <Emphasis>qualité</Emphasis> et nous engageons pour un{" "}
+        <Emphasis>qualité</Emphasis> et nous engageons sur le{" "}
         <Emphasis>respect des coûts et des délais</Emphasis> grâce à nos outils
         et méthodes issus des domaines les plus exigeants, de la Silicon Valley
         à la finance de Wall Street.
@@ -29,7 +28,7 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <a
           href="/#contact"
-          className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
+          className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-md font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
         >
           Contactez-nous
         </a>
