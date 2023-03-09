@@ -6,7 +6,7 @@ import { PageHeader } from "../components/PageHeader";
 import { Contact } from "../components/Contact";
 import { Team } from "../components/Team";
 import { Hero } from "../components/Hero";
-import { Web3 } from "../components/Web3";
+import { Technologies } from "../components/Technologies";
 import { Services } from "../components/Services";
 
 function IndexPage() {
@@ -18,11 +18,11 @@ function IndexPage() {
         <Hero />
 
         <section
-          id="Web3"
-          aria-label="Examples Web3"
+          id="technologies"
+          aria-label="technologies"
           className="bg-meranti-100 py-20 sm:py-32"
         >
-          <Web3 />
+          <Technologies />
         </section>
 
         <section
