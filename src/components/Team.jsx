@@ -11,15 +11,17 @@ export function Team() {
         </h2>
 
         <p className="mt-4 text-lg tracking-tight text-blue-100">
-          De Wall Street à Grand Rue. Des méthodes et technologies importées de
-          la finance et mises au service de l'économie locale.
+          Une expertise démontrée à l'international et apportée à l'économie
+          locale. Une culture d'entreprise favorisant l'échange de compétences
+          et l'amélioration continue, nos experts saurons vous accompagner à
+          toutes les étapes de vos projets.
         </p>
       </div>
 
       <div className="mx-auto py-12 px-4 max-w-4xl sm:px-6 lg:px-8 lg:py-24">
         <ul className="space-y-12 sm:divide-y mt-4 sm:space-y-0 sm:-mt-8 lg:gap-x-8 lg:space-y-0">
           <li className="sm:py-8">
-            <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
+            <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-12 sm:space-y-0">
               <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
                 <img
                   className="object-cover shadow-lg rounded-lg text-blue-100"
@@ -34,13 +36,21 @@ export function Team() {
                     <p className="text-cyan-300">Gérant / Développeur Web3</p>
                   </div>
                   <div className="text-lg">
-                    <p className="text-white">
-                      Olivier suit l'évolution des technologies de l'Internet
-                      depuis les années 90. Développeur Web et consultant, passé
-                      par la City de Londres et Wall Street, Olivier apporte ses
-                      compétences en développement d'applications Web à
-                      l'économie locale de Mulhouse et ses environs.
-                    </p>
+                    <ul className="text-white list-disc">
+                      <li>
+                        Head of Web UI Practice (USA) @Adaptive, New York (+ de
+                        40 personnes)
+                      </li>
+                      <li>
+                        Lead Frontend Dev @Tagomi, New York (maintenant Coinbase
+                        Prime)
+                      </li>
+                      <li>Principal Engineer @Lab49, New York</li>
+                      <li>
+                        $10M+ de projets livrés à Wall Street avec 100% de
+                        satisfaction client
+                      </li>
+                    </ul>
                   </div>
                   <ul className="flex space-x-5 items-center">
                     <li>

@@ -9,10 +9,11 @@ export function Technologies() {
         </h2>
 
         <p className="mt-6 text-xl tracking-tight text-blue-100">
-          Les nouvelles technologies du Web ouvrent la voie a un Internet plus
-          accessible, intelligent, disponible, performant, decentralise et
-          durable. Du Cloud a la blockchain en passant par l'intelligence
-          artificelle, les nouvelles technologies
+          Les nouvelles technologies du Web ouvrent la voie à un Internet plus
+          accessible, intelligent, disponible, performant, décentralisé et
+          durable. Du Cloud à la Blockchain en passant par l'Intelligence
+          Artificelle, transformez votre activité et donnez lui un temps
+          d'avance.
         </p>
       </div>
 
@@ -20,10 +21,12 @@ export function Technologies() {
         <div className="relative">
           <h3 className="mt-6 text-2xl font-medium text-white">Open Source</h3>
 
-          <p className="mt-2 font-display text-xl text-cyan-300">Logiciel </p>
+          <p className="mt-2 font-display text-xl text-cyan-300">
+            Ensemble nous irons plus loin
+          </p>
 
           <p className="mt-4 font-display text-md text-blue-100">
-            L'utilisation des technologies Open source permet d'accélérer le
+            L'utilisation des technologies Open Source permet d'accélérer le
             développement logiciel, d'améliorer la qualité et de réduire les
             coûts en intégrant des éléments éprouvés et maintenus par de larges
             communautés de développeurs. Chez Meranti, nous sommes fiers d'être
@@ -35,13 +38,13 @@ export function Technologies() {
           <h3 className="mt-6 text-2xl font-medium text-white">Cloud</h3>
 
           <p className="mt-2 font-display text-xl text-cyan-300">
-            Infrastructure a la demande
+            Infrastructure à la demande
           </p>
 
           <p className="mt-4 font-display text-md text-blue-100">
-            Ameliorer la disponibilite de vos services, scalez a la demande,
-            deployez rapidement et facilement de nouvelles solutions, maitrisez
-            vos couts et votre impact environemental en utilisant les
+            Améliorez la disponibilité de vos services, scalez à la demande,
+            déployez rapidement et facilement de nouvelles solutions, maîtrisez
+            vos coûts et votre impact environnemental en utilisant les
             technologies du Cloud.
           </p>
         </div>
@@ -52,16 +55,16 @@ export function Technologies() {
           </h3>
 
           <p className="mt-2 font-display text-xl text-cyan-300">
-            Echange de biens et informations
+            Echange de biens et de données
           </p>
 
           <p className="mt-4 font-display text-md text-blue-100">
-            Un registre de donnees decentralise, securise, infalsifiable,
-            transparent et programmable pour echanger des biens et des donnees
-            dans des environnements a faible confiance. Solutions de paiements,
-            de commerce, de compliance, de securite, d'audit ou ludiques, les
-            cas d'usages se multiplient et offrent une nouvelle dimension au Web
-            tel que nous le connaissons. En savoir plus.
+            Un registre de données décentralisé, sécurisé, infalsifiable,
+            transparent, programmable et ouvert à tous pour échanger en toute
+            confiance. Solutions de paiement, de compliance, de sécurité, de
+            fidélisation, d'échange, ou applications ludiques, les cas d'usages
+            se multiplient et nous sommes loin d'en avoir fait le tour. Quel
+            sera le votre?
           </p>
         </div>
 
@@ -71,12 +74,14 @@ export function Technologies() {
           </h3>
 
           <p className="mt-2 font-display text-xl text-cyan-300">
-            Donnez vie a vos donnees
+            Donnez vie à vos données
           </p>
 
           <p className="mt-4 font-display text-md text-blue-100">
-            Création de monnaies digitales, ou virtuelles, avec leurs propres
-            économies et acteurs, liées ou non à d'autres monnaies existantes.
+            Améliorez la performance de votre entreprise ou offrez une meilleure
+            expérience à vos utilisateurs en anticipant leurs besoins. Décelez
+            les nouvelles tendances dans un océan d'informations ou gérez votre
+            risque en temps réel grâce aux données que vous récoltez.
           </p>
         </div>
       </div>
