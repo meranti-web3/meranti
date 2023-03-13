@@ -12,7 +12,7 @@ export function Technologies() {
           Les nouvelles technologies du Web ouvrent la voie à un Internet plus
           accessible, intelligent, disponible, performant, décentralisé et
           durable. Du Cloud à la Blockchain en passant par l'Intelligence
-          Artificelle, transformez votre activité et donnez lui un temps
+          Artificielle, transformez votre activité et donnez lui un temps
           d'avance.
         </p>
       </div>
