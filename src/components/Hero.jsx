@@ -8,18 +8,19 @@ export function Hero() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-20 text-center lg:pt-32 lg:pb-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl capitalize">
-        Solutions <Emphasis>Web3</Emphasis> pour startups et entreprises.
+        Solutions <Emphasis>Web3</Emphasis> pour les pros.
       </h1>
 
       <p className="mx-auto mt-6 max-w-4xl text-xl tracking-tight text-slate-700">
         <Emphasis>Meranti</Emphasis> conçoit des solutions{" "}
-        <Emphasis>Web3</Emphasis> sur mesure, pour les startups et entreprises,
-        avec une approche centrée sur l'expérience utilisateur.
+        <Emphasis>Web</Emphasis> et <Emphasis>Blockchain</Emphasis> sur mesure,
+        pour les startups, entreprises de toutes tailles, éditeurs de logiciels
+        ou agences Web, avec une approche centrée sur l'expérience utilisateur.
       </p>
 
       <p className="mx-auto mt-6 max-w-4xl text-xl tracking-tight text-slate-700">
-        Nous garantissons les plus hauts standards de{" "}
-        <Emphasis>qualité</Emphasis> et nous engageons sur le{" "}
+        Forts de notre expérience internationale, nous garantissons les plus
+        hauts standards de <Emphasis>qualité</Emphasis> et nous engageons sur le{" "}
         <Emphasis>respect des coûts et des délais</Emphasis> grâce à nos outils
         et méthodes issus des domaines les plus exigeants, de la Silicon Valley
         à la finance de Wall Street.
@@ -28,7 +29,7 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <a
           href="/#contact"
-          className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-md font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
+          className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-xl font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
         >
           Contactez-nous
         </a>

@@ -19,6 +19,25 @@ export function Technologies() {
 
       <div className="grid md:grid-cols-4 sm:grid-cols-1 gap-x-8 mt-16">
         <div className="relative">
+          <h3 className="mt-6 text-2xl font-medium text-white">
+            Dév. Web et Blockchain
+          </h3>
+
+          <p className="mt-2 font-display text-xl text-cyan-300">
+            Nos technologies favorites
+          </p>
+
+          <p className="mt-4 font-display text-md text-blue-100">
+            TypeScript, React, Angular, Node, Deno, Ag Grid, ChartIQ, ChartJS,
+            Tailwind, Material, Bootstrap, Progressive Web Apps, REST, GraphQL,
+            Express, WebSockets, Knex, MongoDB, Ethereum, Solidity, Tezos, Ligo,
+            Cypress, Playwright, Jest, Mocha et bien d'autres.
+            <span className="block">&nbsp;</span>
+            Nous suivons les nouvelles tendances afin de pouvoir toujours offrir
+            les meilleurs solutions.
+          </p>
+        </div>
+        <div className="relative">
           <h3 className="mt-6 text-2xl font-medium text-white">Open Source</h3>
 
           <p className="mt-2 font-display text-xl text-cyan-300">
@@ -29,8 +48,10 @@ export function Technologies() {
             L'utilisation des technologies Open Source permet d'accélérer le
             développement logiciel, d'améliorer la qualité et de réduire les
             coûts en intégrant des éléments éprouvés et maintenus par de larges
-            communautés de développeurs. Chez Meranti, nous sommes fiers d'être
-            également contributeurs Open Source.
+            communautés de développeurs.
+            <span className="block">&nbsp;</span>
+            Chez Meranti, nous sommes fiers d'être également contributeurs Open
+            Source.
           </p>
         </div>
 
@@ -38,7 +59,7 @@ export function Technologies() {
           <h3 className="mt-6 text-2xl font-medium text-white">Cloud</h3>
 
           <p className="mt-2 font-display text-xl text-cyan-300">
-            Infrastructure à la demande
+            La tête dans les nuages
           </p>
 
           <p className="mt-4 font-display text-md text-blue-100">
@@ -46,6 +67,11 @@ export function Technologies() {
             déployez rapidement et facilement de nouvelles solutions, maîtrisez
             vos coûts et votre impact environnemental en utilisant les
             technologies du Cloud.
+            <span className="block">&nbsp;</span>
+            Chez Meranti nos applications sont "12 factor" pour que vous
+            puissiez les déployer chez AWS, GCP, Scalingo ou toute autre
+            solution Cloud de votre choix. Nous pouvons aussi vous aider à
+            choisir votre fournisseur.
           </p>
         </div>
 
@@ -63,25 +89,8 @@ export function Technologies() {
             transparent, programmable et ouvert à tous pour échanger en toute
             confiance. Solutions de paiement, de compliance, de sécurité, de
             fidélisation, d'échange, ou applications ludiques, les cas d'usages
-            se multiplient et nous sommes loin d'en avoir fait le tour. Quel
-            sera le votre?
-          </p>
-        </div>
-
-        <div className="relative">
-          <h3 className="mt-6 text-2xl font-medium text-white">
-            Intelligence Artificielle
-          </h3>
-
-          <p className="mt-2 font-display text-xl text-cyan-300">
-            Donnez vie à vos données
-          </p>
-
-          <p className="mt-4 font-display text-md text-blue-100">
-            Améliorez la performance de votre entreprise ou offrez une meilleure
-            expérience à vos utilisateurs en anticipant leurs besoins. Décelez
-            les nouvelles tendances dans un océan d'informations ou gérez votre
-            risque en temps réel grâce aux données que vous récoltez.
+            se multiplient et nous sommes loin d'en avoir fait le tour.
+            <span className="block">&nbsp;</span>Quel sera le votre?
           </p>
         </div>
       </div>
