@@ -11,9 +11,8 @@ export function Technologies() {
         <p className="mt-6 text-xl tracking-tight text-blue-100">
           Les nouvelles technologies du Web ouvrent la voie à un Internet plus
           accessible, intelligent, disponible, performant, décentralisé et
-          durable. Du Cloud à la Blockchain en passant par l'Intelligence
-          Artificielle, transformez votre activité et donnez lui un temps
-          d'avance.
+          durable. Avec le Cloud et la Blockchain, transformez votre activité et
+          donnez lui un temps d'avance.
         </p>
       </div>
 
