@@ -12,8 +12,8 @@ export function Contact() {
             Meranti
           </h3>
           <div className="mt-2 text-base text-gray-500">
-            <p>16 rue de Steinbach</p>
-            <p className="mt-1">68200 Mulhouse, France</p>
+            <p>KMØ - 30 rue François Spoerry</p>
+            <p className="mt-1">68100 Mulhouse, France</p>
             <a
               href="mailto:contact+portal@meranti.fr"
               className="hover:underline mt-1 text-meranti-100"
