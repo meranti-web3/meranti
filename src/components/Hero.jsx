@@ -1,8 +1,6 @@
 import * as React from "react";
 
-function Emphasis({ children, className }) {
-  return <span className={`text-meranti-100 ${className}`}>{children}</span>;
-}
+import Emphasis from "../components/Emphasis";
 
 export function Hero() {
   return (
@@ -20,7 +18,7 @@ export function Hero() {
 
       <p className="mx-auto mt-6 max-w-4xl text-xl tracking-tight text-slate-700">
         Forts de notre expérience internationale, nous garantissons les plus
-        hauts standards de <Emphasis>qualité</Emphasis> et nous engageons sur le{" "}
+        hauts standards de <Emphasis>qualité</Emphasis> et nous nous engageons sur le{" "}
         <Emphasis>respect des coûts et des délais</Emphasis> grâce à nos outils
         et méthodes issus des domaines les plus exigeants, de la Silicon Valley
         à la finance de Wall Street.

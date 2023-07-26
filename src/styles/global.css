@@ -5,3 +5,12 @@
 body {
   font-family: "Barlow";
 }
+
+/* fixes a bug where the common.css stylesheet overrides ours */
+.markdown-overrides ol {
+  list-style-type: decimal;
+}
+
+.markdown-overrides .language-text {
+  font-size: .8em; 
+}
