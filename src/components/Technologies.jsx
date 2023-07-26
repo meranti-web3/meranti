@@ -33,7 +33,7 @@ export function Technologies() {
             Cypress, Playwright, Jest, Mocha et bien d'autres.
             <span className="block">&nbsp;</span>
             Nous suivons les nouvelles tendances afin de pouvoir toujours offrir
-            les meilleurs solutions.
+            les meilleures solutions.
           </p>
         </div>
         <div className="relative">
@@ -89,7 +89,7 @@ export function Technologies() {
             confiance. Solutions de paiement, de compliance, de sécurité, de
             fidélisation, d'échange, ou applications ludiques, les cas d'usages
             se multiplient et nous sommes loin d'en avoir fait le tour.
-            <span className="block">&nbsp;</span>Quel sera le votre?
+            <span className="block">&nbsp;</span>Quel sera le vôtre?
           </p>
         </div>
       </div>

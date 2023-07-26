@@ -1,6 +1,6 @@
 {
   "name": "meranti-web3",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "description": "meranti-web3",
   "author": "Meranti SARL",
@@ -16,11 +16,14 @@
     "Olivier",
     "Scherrer",
     "NFT",
-    "DeFi"
+    "DeFi",
+    "DLT",
+    "Tokenization",
+    "Software Development"
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "start": "gatsby --verbose develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -29,15 +32,22 @@
   "dependencies": {
     "@fontsource/barlow": "^4.5.7",
     "@heroicons/react": "^1.0.6",
-    "gatsby": "^4.19.2",
-    "gatsby-plugin-manifest": "^4.20.0",
+    "clsx": "^2.0.0",
+    "gatsby": "^4.14.1",
+    "gatsby-plugin-manifest": "^4.25.0",
+    "gatsby-remark-autolink-headers": "^5.25.0",
+    "gatsby-remark-classes": "^1.0.2",
+    "gatsby-remark-prismjs": "^6.25.0",
+    "gatsby-source-filesystem": "^4.25.0",
+    "gatsby-transformer-remark": "^5.25.1",
+    "prismjs": "^1.29.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "tailwindcss": "^3.1.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
-    "gatsby-plugin-postcss": "^5.20.0",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.7"
+    "gatsby-plugin-postcss": "^5.25.0",
+    "postcss": "^8.4.14"
   }
 }
