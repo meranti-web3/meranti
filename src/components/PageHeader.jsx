@@ -4,7 +4,7 @@ import merantiLogo from "../images/meranti.svg";
 function MenuItem({ href, children }) {
   return (
     <a
-      className="inline-block rounded-lg py-1 px-2 text-lg text-slate-700 hover:bg-slate-100 hover:text-slate-900 flex"
+      className="rounded-lg py-1 px-2 text-lg text-slate-700 hover:bg-slate-100 hover:text-slate-900 flex"
       href={href}
     >
       {children}
@@ -29,7 +29,6 @@ export function PageHeader() {
           <div className="flex md:gap-x-6">
             <MenuItem href="/#technologies">Technos</MenuItem>
             <MenuItem href="/#services">Services</MenuItem>
-            <MenuItem href="/#team">Équipe</MenuItem>
             <MenuItem href="/#contact">Contact</MenuItem>
             <MenuItem href="/blog">
               Blog

@@ -4,7 +4,6 @@ import { PageHead } from "../components/PageHead";
 import { PageFooter } from "../components/PageFooter";
 import { PageHeader } from "../components/PageHeader";
 import { Contact } from "../components/Contact";
-import { Team } from "../components/Team";
 import { Hero } from "../components/Hero";
 import { Technologies } from "../components/Technologies";
 import { Services } from "../components/Services";
@@ -34,17 +33,9 @@ function IndexPage() {
         </section>
 
         <section
-          id="team"
-          aria-label="Meranti Team"
-          className="bg-meranti-100 py-20 sm:py-32"
-        >
-          <Team />
-        </section>
-
-        <section
           id="contact"
           aria-label="Contactez-nous"
-          className="bg-slate-50 py-20 sm:py-32"
+          className="bg-meranti-100 py-20 sm:py-32"
         >
           <Contact />
         </section>

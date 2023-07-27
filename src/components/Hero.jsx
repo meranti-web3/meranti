@@ -31,6 +31,12 @@ export function Hero() {
         >
           Contactez-nous
         </a>
+        <a
+          href="https://calendly.com/olivier-meranti-web3/30min" target="_blank" rel="noreferrer"
+          className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-xl font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 border border-meranti-100 text-meranti-100 hover:bg-meranti-100 hover:text-white active:bg-slate-100 active:text-slate-500 focus-visible:outline-slate-900"
+        >
+          Prendre Rendez-Vous
+        </a>
       </div>
     </div>
   );
