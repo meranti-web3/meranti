@@ -1,12 +1,12 @@
 import * as React from "react";
 
-import { PageHead } from "../components/PageHead";
 import { PageFooter } from "../components/PageFooter";
 import { PageHeader } from "../components/PageHeader";
 import { Contact } from "../components/Contact";
 import { Hero } from "../components/Hero";
 import { Technologies } from "../components/Technologies";
 import { Services } from "../components/Services";
+import { useSiteMetadata } from "../hooks/use-site-metadata";
 
 function IndexPage() {
   return (
@@ -49,5 +49,13 @@ function IndexPage() {
 export default IndexPage;
 
 export function Head() {
-  return <PageHead />;
+  const { title, descriptionFr, descriptionEn } = useSiteMetadata();
+
+  return (
+    <>
+      <title>{title}</title>
+      <meta name="description" lang="fr" content={descriptionFr} />
+      <meta name="description" lang="en" content={descriptionEn} />?
+    </>
+  );
 }

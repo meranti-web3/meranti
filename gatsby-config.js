@@ -3,10 +3,12 @@ const { list } = require("postcss");
 module.exports = {
   siteMetadata: {
     title:
-      "Meranti SARL - Conseil et développement Web3 blockchain à Mulhouse, Grand Est, France",
+      "Meranti SARL - Pro Web3 Solutions. Mulhouse, France.",
     siteUrl: "https://www.meranti.fr",
-    description:
-      "Meranti conçoit des solutions Web et blockchain sur mesure pour les entreprises avec une approche centrée sur l'expérience utilisateurs."
+    descriptionFr:
+      "Meranti conçoit des solutions Web et blockchain sur mesure pour les entreprises avec une approche centrée sur l'expérience utilisateur.",
+      descriptionEn:
+      "Meranti designs and develops bespoke Web and blockchain solutions for all businesses with a UX first approach."
   },
   plugins: [
     "gatsby-plugin-postcss",

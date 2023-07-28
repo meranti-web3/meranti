@@ -7,7 +7,8 @@ export function useSiteMetadata() {
         siteMetadata {
           title
           siteUrl
-          description
+          descriptionFr
+          descriptionEn
         }
       }
     }

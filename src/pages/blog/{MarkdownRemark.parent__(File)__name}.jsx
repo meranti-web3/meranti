@@ -3,7 +3,8 @@ import { graphql } from "gatsby";
 
 import { PageFooter } from "../../components/PageFooter";
 import { PageHeader } from "../../components/PageHeader";
-import { PageHead } from "../../components/PageHead";
+import { useSiteMetadata } from "../../hooks/use-site-metadata";
+
 
 export default function BlogPost({ data }) {
   const { post } = data;
@@ -101,6 +102,14 @@ export const pageQuery = graphql`
   }
 `;
 
-export function Head() {
-  return <PageHead />;
+export function Head({ data }) {
+  const { post } = data;
+  const { title } = useSiteMetadata();
+
+  return (
+    <>
+      <title>{ title }</title>
+      <meta name="description" lang="en" content={post.frontmatter.title} />
+    </>
+  );
 }

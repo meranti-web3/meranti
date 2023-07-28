@@ -2,7 +2,7 @@ import * as React from "react";
 
 import { PageHeader } from "../components/PageHeader";
 import { PageFooter } from "../components/PageFooter";
-import { PageHead } from "../components/PageHead";
+import { useSiteMetadata } from "../hooks/use-site-metadata";
 
 function MentionsPage() {
   return (
@@ -97,5 +97,13 @@ function MentionsPage() {
 export default MentionsPage;
 
 export function Head() {
-  return <PageHead />;
+  const { title, descriptionFr, descriptionEn } = useSiteMetadata();
+
+  return (
+    <>
+      <title>{title}</title>
+      <meta name="description" lang="fr" content={descriptionFr} />
+      <meta name="description" lang="en" content={descriptionEn} />?
+    </>
+  );
 }

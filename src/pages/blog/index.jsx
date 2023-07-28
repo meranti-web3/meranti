@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Emphasis from "../../components/Emphasis";
 import { PageFooter } from "../../components/PageFooter";
 import { PageHeader } from "../../components/PageHeader";
-import { PageHead } from "../../components/PageHead";
+import { useSiteMetadata } from "../../hooks/use-site-metadata";
 
 export default function BlogPage({ data }) {
   const { posts } = data;
@@ -100,5 +100,13 @@ function Intro() {
 }
 
 export function Head() {
-  return <PageHead />;
+  const { title, descriptionFr, descriptionEn } = useSiteMetadata();
+
+  return (
+    <>
+      <title>{title}</title>
+      <meta name="description" lang="fr" content={`Bienvenue sur le Blog Technique de Meranti. ${ descriptionFr }`} />
+      <meta name="description" lang="en" content={`Welcome to Meranti's technical Blog. ${ descriptionEn }`} />
+    </>
+  );
 }
