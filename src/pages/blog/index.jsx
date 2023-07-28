@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, navigate } from "gatsby";
 
 import Emphasis from "../../components/Emphasis";
 import { PageFooter } from "../../components/PageFooter";
@@ -19,7 +19,7 @@ export default function BlogPage({ data }) {
         <section className="bg-meranti-100">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-10 h-[100vh]">
             {posts.nodes.map((post) => (
-              <a href={`/blog/${post.parent.name}/`}>
+              <a href={`/blog/${post.parent.name}/`} key={post.id}>
                 <article
                   className="relative rounded-2xl bg-white p-6 mb-6 hover:shadow-xl hover:shadow-slate-900/10 hover:bg-slate-100"
                   key={post.id}
@@ -34,14 +34,12 @@ export default function BlogPage({ data }) {
                       <time className="text-slate-500">
                         {post.frontmatter.date}
                       </time>
-                      <a
-                        href={`mailto:${ post.frontmatter.email }`}
-                        rel="noreferrer"
-                        target="_blank"
+                      <button
+                        onClick={() => navigate(`mailto:${post.frontmatter.email}`)}
                         className="text-meranti-100 hover:underline"
                       >
                         {post.frontmatter.author}
-                      </a>
+                      </button>
                     </p>
                     <Emphasis className="flex hover:underline items-center text-xl">
                       Read &gt;
