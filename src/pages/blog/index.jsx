@@ -21,7 +21,7 @@ export default function BlogPage({ data }) {
             {posts.nodes.map((post) => (
               <a href={`/blog/${post.parent.name}/`} key={post.id}>
                 <article
-                  className="relative rounded-2xl bg-white p-6 mb-6 hover:shadow-xl hover:shadow-slate-900/10 hover:bg-slate-100"
+                  className="relative rounded-2xl hover:bg-white p-6 mb-6 hover:shadow-xl hover:shadow-slate-900/10 bg-slate-200"
                   key={post.id}
                 >
                   <h2 className="text-slate-900 text-lg font-extrabold">
@@ -29,7 +29,7 @@ export default function BlogPage({ data }) {
                   </h2>
 
                   <p className="py-4 text-slate-500">{post.excerpt}</p>
-                  <div className="flex justify-between border-t border-slate-200 pt-4">
+                  <div className="separator flex justify-between border-t border-slate-300  pt-4">
                     <p className="flex flex-col">
                       <time className="text-slate-500">
                         {post.frontmatter.date}
