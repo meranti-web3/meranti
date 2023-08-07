@@ -2,6 +2,7 @@
 title: Soulbound Tokens on Ethereum with ERC721
 author: Olivier Scherrer
 email: olivier.scherrer@meranti.fr
+linkedIn: https://www.linkedin.com/in/olivier-scherrer-039b8441/
 date: 2023-07-25
 ---
 

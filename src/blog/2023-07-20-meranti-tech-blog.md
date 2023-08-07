@@ -2,6 +2,7 @@
 title: Meranti launches its technical blog!
 author: Olivier Scherrer
 email: olivier.scherrer@meranti.fr
+linkedIn: https://www.linkedin.com/in/olivier-scherrer-039b8441/
 date: 2023-07-20
 ---
 

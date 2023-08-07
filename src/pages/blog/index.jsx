@@ -35,7 +35,9 @@ export default function BlogPage({ data }) {
                         {post.frontmatter.date}
                       </time>
                       <button
-                        onClick={() => navigate(`mailto:${post.frontmatter.email}`)}
+                        onClick={() =>
+                          navigate(`mailto:${post.frontmatter.email}`)
+                        }
                         className="text-meranti-100 hover:underline"
                       >
                         {post.frontmatter.author}
@@ -61,6 +63,7 @@ export const pageQuery = graphql`
   query BlogIndexQuery {
     posts: allMarkdownRemark(
       sort: { fields: frontmatter___date, order: DESC }
+      filter: { frontmatter: { published: { ne: false } } }
     ) {
       nodes {
         frontmatter {
@@ -103,8 +106,16 @@ export function Head() {
   return (
     <>
       <title>{title}</title>
-      <meta name="description" lang="fr" content={`Bienvenue sur le Blog Technique de Meranti. ${ descriptionFr }`} />
-      <meta name="description" lang="en" content={`Welcome to Meranti's technical Blog. ${ descriptionEn }`} />
+      <meta
+        name="description"
+        lang="fr"
+        content={`Bienvenue sur le Blog Technique de Meranti. ${descriptionFr}`}
+      />
+      <meta
+        name="description"
+        lang="en"
+        content={`Welcome to Meranti's technical Blog. ${descriptionEn}`}
+      />
     </>
   );
 }
