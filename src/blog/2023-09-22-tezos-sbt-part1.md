@@ -6,15 +6,9 @@ linkedIn: https://www.linkedin.com/in/olivier-scherrer-039b8441/
 date: 2023-09-22
 ---
 
-Soulbould Tokens (SBTs) are a special type of NFTs that can't be transferred or traded. Their main purpose is to prevent the token from being acquired by other means that the one initially intended by the issuer.
-
-## Soulbound Tokens
-
-We've previously seen how to build [Soulbound Tokens (SBTs) on Ethereum compatible blockchains using ERC721](https://www.meranti.fr/blog/2023-07-25-ethereum-sbt/) and if you haven't read it yet, I strongly recommend you to do so as it's a good introduction to SBTs and their basic features.
+We've previously seen how to build [Soulbound Tokens (SBTs) on Ethereum compatible blockchains using ERC721](https://www.meranti.fr/blog/2023-07-25-ethereum-sbt/). In this tutorial, we'll cover how to implement SBTs on Tezos using the [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md) standard, bringing the token's features on par with its [ERC721](https://www.meranti.fr/blog/2023-07-25-ethereum-sbt/) equivalent.
 
 ## Soulbound Tokens on Tezos
-
-In this tutorial, we'll cover how to build a Soulbound Token on Tezos using [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md), bringing the token's features on par with its [ERC721](https://www.meranti.fr/blog/2023-07-25-ethereum-sbt/) equivalent.
 
 We decided to use the [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md) standard as a Soulbound Token is very similar to an NFT except for its non transferability. It still needs to assign tokens to owners, store metadata, be recognized in wallets etc. [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md) is the de facto standard and we want our SBTs to exhibit the same behaviors.
 
@@ -22,7 +16,7 @@ This contract will be implemented using the [JsLIGO](https://ligolang.org/?lang=
 
 Unlike with Ethereum where we were able to inherit from a standard implementation from OpenZeppelin, this time we'll build it from scratch as I wasn't able to find an implementation easy enough to just reuse. This is fine as it will give us an opportunity to conduct an in-depth study on how to write an FA2 Smart Contract.
 
-## FA2
+## About FA2
 
 FA2's intent is to be flexible enough to allow for various usages such as fungible tokens, non-fungible tokens and all sorts of mixed uses, while offering a standard API for interoperability. This makes it for a powerful standard, but also a much more difficult one to use and implement. As we'll later see, it was also built with technical constraints that are now alleviated, such as the absence of view methods. Anyway, let's dig in.
 
