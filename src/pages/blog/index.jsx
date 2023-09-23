@@ -30,7 +30,7 @@ export default function BlogPage({ data }) {
 
                   <p className="py-4 text-slate-500">{post.excerpt}</p>
                   <div className="separator flex justify-between border-t border-slate-300  pt-4">
-                    <p className="flex flex-col">
+                    <p className="flex flex-col text-left">
                       <time className="text-slate-500">
                         {post.frontmatter.date}
                       </time>
