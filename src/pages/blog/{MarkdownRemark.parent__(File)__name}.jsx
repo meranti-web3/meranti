@@ -25,7 +25,7 @@ export default function BlogPost({ data }) {
             <h1 className="text-3xl font-extrabold">
               {post.frontmatter.title}
             </h1>
-            <p className="flex text-sm text-slate-500 mt-2">
+            <p className="flex text-sm text-slate-500 mt-2 items-center">
               <a
                 className="text-meranti-100 text-lg font-extrabold hover:underline"
                 href={`mailto:${post.frontmatter.email}`}
