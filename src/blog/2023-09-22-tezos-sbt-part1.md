@@ -14,7 +14,7 @@ We decided to use the [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposal
 
 This contract will be implemented using the [JsLIGO](https://ligolang.org/?lang=jsligo) syntax and we'll be following the [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md) standard.
 
-Unlike with Ethereum where we were able to inherit from a standard implementation from OpenZeppelin, this time we'll build it from scratch as I wasn't able to find an implementation easy enough to just reuse. This is fine as it will give us an opportunity to conduct an in-depth study on how to write an FA2 Smart Contract.
+Unlike with Ethereum where we were able to inherit from a standard implementation from OpenZeppelin, this time we'll build it from scratch as I wasn't able to find an implementation easy enough to just reuse. This is fine as it will give us an opportunity to conduct an in-depth study on how to write an FA2 smart contract.
 
 ## About FA2
 
@@ -68,7 +68,7 @@ type storage = {
 
 ### 2. `balance_of` entrypoint.
 
-`balance_of`'s purpose is to check a given owner's token count. This method was designed at a time when `view` methods didn't exist and when the balance couldn't just be returned from the function call, unlike with Ethereum Smart Contracts for example. Remember that the return type of a Tezos entrypoint is a list of operations to perform next, plus the new storage state.
+`balance_of`'s purpose is to check a given owner's token count. This method was designed at a time when `view` methods didn't exist and when the balance couldn't just be returned from the function call, unlike with Ethereum smart contracts for example. Remember that the return type of a Tezos entrypoint is a list of operations to perform next, plus the new storage state.
 
 This is why it has a convoluted logic that requires a "callback" function to be passed to the entrypoint as a parameter. Those callback functions will be scheduled to be executed after the `balance_of` entrypoint returns, by listing them in the `operation` slot in the returned tuple.
 
@@ -141,7 +141,7 @@ type unit_update = ["Add_operator", operator] | ["Remove_operator", operator];
 
 We've covered the 3 standard entrypoints. As mentioned before, minting and burning tokens is specific to each FA2 implementation; those entrypoints are not standardized in FA2.
 
-The last topic we haven't covered yet that still needs to be standardized is token metadata. Each token can store a unique set of properties and FA2 requires a standard implementation for the ecosystem and other Smart Contracts to be able to consume them.
+The last topic we haven't covered yet that still needs to be standardized is token metadata. Each token can store a unique set of properties and FA2 requires a standard implementation for the ecosystem and other smart contracts to be able to consume them.
 
 This is a pretty big topic on its own and is worth a separate tutorial, so we'll cover it in part 2.
 
