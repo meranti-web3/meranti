@@ -12,9 +12,9 @@ body {
 }
 
 .markdown-overrides .language-text {
-  font-size: .8em; 
+  font-size: 0.8em;
 }
 
-.markdown-overrides pre>code {
-  font-size: .8em;
+.markdown-overrides pre > code {
+  font-size: 0.8em;
 }

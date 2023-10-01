@@ -6,7 +6,13 @@ import { PageHeader } from "../../components/PageHeader";
 import { useSiteMetadata } from "../../hooks/use-site-metadata";
 
 export default function BlogPost({ data }) {
-  const { post } = data;
+  const { post, allPosts } = data;
+
+  const currentPostIndex = allPosts.nodes.findIndex(
+    (currentPost) => currentPost.id === post.id
+  );
+  const previousPost = allPosts.nodes[currentPostIndex - 1];
+  const nextPost = allPosts.nodes[currentPostIndex + 1];
 
   return (
     <div className="flex h-full flex-col">
@@ -66,6 +72,35 @@ export default function BlogPost({ data }) {
               dangerouslySetInnerHTML={{ __html: post.html }}
             ></article>
 
+            <div className="flex justify-between mb-8 text-meranti-100">
+              {previousPost && (
+                <a
+                  className="flex border p-4 border-meranti-100 flex-col rounded-lg bg-slate-100 hover:bg-white mr-4"
+                  href={`/blog/${previousPost.parent.name}`}
+                >
+                  <span className="text-meranti-100 font-extrabold text-lg">
+                    &lt; Previous
+                  </span>
+                  <span className="text-slate-500">
+                    {previousPost.frontmatter.title}
+                  </span>
+                </a>
+              )}
+              {nextPost && (
+                <a
+                  className="flex border p-4 border-meranti-100 flex-col rounded-lg bg-slate-100 hover:bg-white ml-auto items-end"
+                  href={`/blog/${nextPost.parent.name}`}
+                >
+                  <strong className="text-meranti-100 font-extrabold text-lg">
+                    Next &gt;
+                  </strong>
+                  <span className="text-slate-500">
+                    {nextPost.frontmatter.title}
+                  </span>
+                </a>
+              )}
+            </div>
+
             <div className="flex-gap-4 border-t border-slate-200">
               <p className="py-8">
                 Please reach out to us for comments, information, or just to say
@@ -107,6 +142,7 @@ export default function BlogPost({ data }) {
 export const pageQuery = graphql`
   query BlogPostQuery($id: String) {
     post: markdownRemark(id: { eq: $id }) {
+      id
       frontmatter {
         date(formatString: "MMMM D, YYYY")
         title
@@ -119,6 +155,24 @@ export const pageQuery = graphql`
       parent {
         ... on File {
           modifiedTime(formatString: "MMMM D, YYYY")
+        }
+      }
+    }
+
+    allPosts: allMarkdownRemark(
+      sort: { frontmatter: { date: ASC } }
+      filter: { frontmatter: { published: { ne: false } } }
+    ) {
+      nodes {
+        frontmatter {
+          title
+        }
+        id
+        parent {
+          ... on File {
+            id
+            name
+          }
         }
       }
     }

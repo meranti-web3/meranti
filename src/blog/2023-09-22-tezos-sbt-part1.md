@@ -49,9 +49,9 @@ type transfer_params =
   from_: address,
   txs: list<
   // @layout:comb
-  { 
-    to_: address, 
-    token_id: nat, 
+  {
+    to_: address,
+    token_id: nat,
     amount: nat
   }>
 };
@@ -149,6 +149,7 @@ This is a pretty big topic on its own and is worth a separate tutorial, so we'll
 ## Summary
 
 In this 1st part, we've seen how one might implement a Soulbound Token on top of the FA2 standard:
+
 1. There are 3 important entrypoints to implement, `transfer`, `balance_of`, `update_operators`.
 1. Many tools in the ecosystem use reflection to determine if a token is FA2. We need to implement the interface carefully and sometimes rely on the `layout:comb` pragma to ensure that types are generated in a specific order.
 1. Minting and burning tokens isn't specified in FA2, and we might use our preferred internal data structure to track and design tokens. We'll cover this next.

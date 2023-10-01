@@ -138,7 +138,7 @@ const mint = (owner: owner, ipfs_url: ipfs_url, store: storage): return_ => {
 
   let token_metadata = Map.literal(list([
     ["name", store.name],
-    // hard coding decimals to 
+    // hard coding decimals to
     ["decimals", bytes `0`],
     ["symbol", store.symbol],
     ["", ipfs_url]
@@ -215,6 +215,7 @@ expect(await soulboundTokenInstance.tzip12().getTokenMetadata(0)).toEqual({
 ```
 
 As we can see, using the `tzip12` plugin, retrieving the token metadata will compose an object containing information coming from various sources:
+
 1. `token_id` comes from the field in `token_metadata[0]`
 1. `decimals` is hard coded when minting
 1. `name` and `symbol` are read from the storage, and the values are set at deploy time
@@ -319,7 +320,8 @@ expect(metadata).toEqual({
   license: "MIT",
   authors: ["Olivier Scherrer", "Meranti", "contact@meranti.fr"],
   homepage: "https://meranti.fr",
-  source: "https://github.com/meranti-web3/ssi-sbt/blob/main/sbt-contract-tz/contracts/SoulboundToken.jsligo",
+  source:
+    "https://github.com/meranti-web3/ssi-sbt/blob/main/sbt-contract-tz/contracts/SoulboundToken.jsligo",
   interfaces: ["TZIP-012"],
   views: []
 });
@@ -349,7 +351,7 @@ const burn = (owner: owner, store: storage): return_ => {
 
   return [
     list([]),
-    { ...store, 
+    { ...store,
       tokens_by_owner: new_tokens_by_owner,
       token_metadata: new_token_metadata
     }
@@ -368,4 +370,3 @@ In our 3rd and last part, we'll see how to add `view` methods to consume this co
 If you'd like to see our full implementation of our smart contract, [head over this way](https://github.com/meranti-web3/ssi-sbt/blob/main/sbt-contract-tz/contracts/SoulboundToken.jsligo). You may also take a look at our [tests](https://github.com/meranti-web3/ssi-sbt/tree/main/sbt-contract-tz/tests) to see examples of how to consume this smart contract from your Web3 application.
 
 Hope you enjoyed it, and see you soon for the 3rd part!
-

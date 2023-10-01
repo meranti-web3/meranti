@@ -18,10 +18,10 @@ export function Hero() {
 
       <p className="mx-auto mt-6 max-w-4xl text-xl tracking-tight text-slate-700">
         Forts de notre expérience internationale, nous garantissons les plus
-        hauts standards de <Emphasis>qualité</Emphasis> et nous nous engageons sur le{" "}
-        <Emphasis>respect des coûts et des délais</Emphasis> grâce à nos outils
-        et méthodes issus des domaines les plus exigeants, de la Silicon Valley
-        à la finance de Wall Street.
+        hauts standards de <Emphasis>qualité</Emphasis> et nous nous engageons
+        sur le <Emphasis>respect des coûts et des délais</Emphasis> grâce à nos
+        outils et méthodes issus des domaines les plus exigeants, de la Silicon
+        Valley à la finance de Wall Street.
       </p>
 
       <div className="mt-10 flex justify-center gap-x-6">
@@ -32,7 +32,9 @@ export function Hero() {
           Contactez-nous
         </a>
         <a
-          href="https://calendly.com/olivier-meranti-web3/30min" target="_blank" rel="noreferrer"
+          href="https://calendly.com/olivier-meranti-web3/30min"
+          target="_blank"
+          rel="noreferrer"
           className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-xl font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 border border-meranti-100 text-meranti-100 hover:bg-meranti-100 hover:text-white active:bg-slate-100 active:text-slate-500 focus-visible:outline-slate-900"
         >
           Prendre Rendez-Vous

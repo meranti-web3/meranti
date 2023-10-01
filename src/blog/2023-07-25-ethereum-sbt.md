@@ -199,6 +199,6 @@ Hope you've enjoyed this!
 
 ## Links
 
-* [Meranti's SBT solution for Self Sovereign Identities](https://github.com/meranti-web3/ssi-sbt)
-* [OpenZeppelin Base Smart Contracts](https://www.openzeppelin.com/contracts)
-* [Soulbound Tokens by Vitalik Buterin](https://vitalik.ca/general/2022/01/26/soulbound.html)
+- [Meranti's SBT solution for Self Sovereign Identities](https://github.com/meranti-web3/ssi-sbt)
+- [OpenZeppelin Base Smart Contracts](https://www.openzeppelin.com/contracts)
+- [Soulbound Tokens by Vitalik Buterin](https://vitalik.ca/general/2022/01/26/soulbound.html)
