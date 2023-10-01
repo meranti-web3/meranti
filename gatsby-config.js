@@ -1,5 +1,3 @@
-const { list } = require("postcss");
-
 module.exports = {
   siteMetadata: {
     title: "Meranti SARL - Pro Web3 Solutions. Mulhouse, France.",
@@ -152,6 +150,33 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+          allSitePage {
+            nodes {
+              path
+              pageContext
+            }
+          }
+        }
+      `,
+        serialize: ({ path, pageContext }) => {
+          return {
+            url: path,
+            lastmod: pageContext?.lastMod
+          };
+        }
+      }
+    },
+    "gatsby-plugin-git-lastmod"
   ]
 };
