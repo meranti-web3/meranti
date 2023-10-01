@@ -17,7 +17,7 @@ export default function BlogPage({ data }) {
         <Intro />
 
         <section className="bg-meranti-100">
-          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-10 h-[100vh]">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-10 h-full">
             {posts.nodes.map((post) => (
               <a href={`/blog/${post.parent.name}/`} key={post.id}>
                 <article
