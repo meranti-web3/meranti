@@ -16,8 +16,8 @@ export function PageHeader() {
   return (
     <header className="py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12 mr-4">
+        <nav className="flex flex-col md:flex-row relative z-50 justify-between">
+          <div className="flex items-center justify-center md:gap-x-12 mr-4">
             <a aria-label="Home" href="/#">
               <img
                 className="object-contain w-[220px]"
@@ -26,7 +26,7 @@ export function PageHeader() {
               />
             </a>
           </div>
-          <div className="flex md:gap-x-6">
+          <div className="flex justify-center md:gap-x-6 mt-4 md:mt-0">
             <MenuItem href="/#technologies">Technos</MenuItem>
             <MenuItem href="/#services">Services</MenuItem>
             <MenuItem href="/#contact">Contact</MenuItem>

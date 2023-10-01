@@ -14,7 +14,7 @@ export default function BlogPost({ data }) {
 
       <main>
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex flex-auto justify-center relative min-h-[100vh]">
-          <div className="min-w-0 max-w-xl flex-auto pr-24 py-16 lg:max-w-none lg:pr-0 xl:pr-24">
+          <div className="min-w-0 max-w-xl flex-auto pr-24 py-8 lg:max-w-none lg:pr-0 xl:pr-24">
             <a
               href="/blog"
               className="text-xl mb-8 text-meranti-100 hover:underline block"
