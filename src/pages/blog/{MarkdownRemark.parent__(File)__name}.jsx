@@ -79,7 +79,7 @@ export default function BlogPost({ data }) {
                   href={`/blog/${previousPost.parent.name}`}
                 >
                   <span className="text-meranti-100 font-extrabold text-lg">
-                    &lt; Previous
+                    &lt;&nbsp;Previous
                   </span>
                   <span className="text-slate-500">
                     {previousPost.frontmatter.title}
@@ -92,7 +92,7 @@ export default function BlogPost({ data }) {
                   href={`/blog/${nextPost.parent.name}`}
                 >
                   <strong className="text-meranti-100 font-extrabold text-lg">
-                    Next &gt;
+                    Next&nbsp;&gt;
                   </strong>
                   <span className="text-slate-500">
                     {nextPost.frontmatter.title}
