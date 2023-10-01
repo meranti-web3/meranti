@@ -66,22 +66,22 @@ export default function BlogPost({ data }) {
               dangerouslySetInnerHTML={{ __html: post.html }}
             ></article>
 
-            <div className="border-t border-slate-200">
+            <div className="flex-gap-4 border-t border-slate-200">
               <p className="py-8">
                 Please reach out to us for comments, information, or just to say
                 hi!
               </p>
               <a
                 href="https://calendly.com/olivier-meranti-web3/30min"
-                className="group inline-flex items-center justify-center rounded-full py-2 px-4 mr-4 text-xl font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
+                className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-xl font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
               >
-                Chat with Us
+                Chat
               </a>
               <a
                 href="mailto:contact+portal@meranti.fr"
-                className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-xl font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
+                className="group inline-flex items-center justify-center rounded-full py-2 px-4 ml-4 text-xl font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900"
               >
-                Email Us
+                Email
               </a>
             </div>
           </div>
