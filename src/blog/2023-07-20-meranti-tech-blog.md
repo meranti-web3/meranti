@@ -4,6 +4,7 @@ author: Olivier Scherrer
 email: olivier.scherrer@meranti.fr
 linkedIn: https://www.linkedin.com/in/olivier-scherrer-039b8441/
 date: 2023-07-20
+published: true
 ---
 
 To celebrate our first year of activity (yes, we incorporated exactly a year ago!), we're excited to announce the launch of our new technical blog.

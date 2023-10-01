@@ -4,6 +4,7 @@ author: Olivier Scherrer
 email: olivier.scherrer@meranti.fr
 linkedIn: https://www.linkedin.com/in/olivier-scherrer-039b8441/
 date: 2023-07-25
+published: true
 ---
 
 Soulbound Tokens (SBTs) are a special type of NFTs that can't be transferred or traded. Their main purpose is to prevent the token from being acquired by other means than the one initially intended by the issuer.

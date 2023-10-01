@@ -4,12 +4,13 @@ author: Olivier Scherrer
 email: olivier.scherrer@meranti.fr
 linkedIn: https://www.linkedin.com/in/olivier-scherrer-039b8441/
 date: 2023-09-23
+published: true
 ---
 
 In this 2nd part on how to create an FA2 compatible SBT on Tezos, we're going to bring our custom implementation 100% on par with the ERC721 one.
 To accomplish this, we'll add token and contract metadata, as well as the minting and burning behaviors.
 
-If you haven't already, please make sure to read the [1st part](http://localhost:8000/blog/2023-09-22-tezos-sbt-part1/) of this series on how to create a Soulbound Token on the Tezos blockchain using FA2.
+If you haven't already, please make sure to read the [1st part](/blog/2023-09-22-tezos-sbt-part1/) of this series on how to create a Soulbound Token on the Tezos blockchain using FA2.
 
 ## Metadata
 

@@ -2,16 +2,18 @@ const { list } = require("postcss");
 
 module.exports = {
   siteMetadata: {
-    title:
-      "Meranti SARL - Pro Web3 Solutions. Mulhouse, France.",
+    title: "Meranti SARL - Pro Web3 Solutions. Mulhouse, France.",
     siteUrl: "https://www.meranti.fr",
     descriptionFr:
       "Meranti conçoit des solutions Web et blockchain sur mesure pour les entreprises avec une approche centrée sur l'expérience utilisateur.",
-      descriptionEn:
+    descriptionEn:
       "Meranti designs and develops bespoke Web and blockchain solutions for all businesses with a UX first approach."
   },
   plugins: [
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-plugin-postcss",
+    "gatsby-plugin-image",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -128,7 +130,26 @@ module.exports = {
               }
             }
           },
-          "gatsby-remark-autolink-headers"
+          "gatsby-remark-autolink-headers",
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800
+            }
+          }
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800
+            }
+          }
         ]
       }
     }

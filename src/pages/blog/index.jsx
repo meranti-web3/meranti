@@ -62,7 +62,7 @@ export default function BlogPage({ data }) {
 export const pageQuery = graphql`
   query BlogIndexQuery {
     posts: allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { published: { ne: false } } }
     ) {
       nodes {

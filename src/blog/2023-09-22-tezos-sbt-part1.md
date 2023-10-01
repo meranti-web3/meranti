@@ -4,9 +4,10 @@ author: Olivier Scherrer
 email: olivier.scherrer@meranti.fr
 linkedIn: https://www.linkedin.com/in/olivier-scherrer-039b8441/
 date: 2023-09-22
+published: true
 ---
 
-We've previously seen how to build [Soulbound Tokens (SBTs) on Ethereum compatible blockchains using ERC721](https://www.meranti.fr/blog/2023-07-25-ethereum-sbt/). In this tutorial, we'll cover how to implement SBTs on Tezos using the [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md) standard, bringing the token's features on par with its [ERC721](https://www.meranti.fr/blog/2023-07-25-ethereum-sbt/) equivalent.
+We've previously seen how to build [Soulbound Tokens (SBTs) on Ethereum compatible blockchains using ERC721](/blog/2023-07-25-ethereum-sbt/). In this tutorial, we'll cover how to implement SBTs on Tezos using the [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md) standard, bringing the token's features on par with its [ERC721](/blog/2023-07-25-ethereum-sbt/) equivalent.
 
 ## Soulbound Tokens on Tezos
 

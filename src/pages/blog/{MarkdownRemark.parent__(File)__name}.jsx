@@ -54,8 +54,8 @@ export default function BlogPost({ data }) {
                   </svg>
                 </a>
               )}
-  </p>
-  <p>
+            </p>
+            <p>
               <span className="text-xs">
                 Last modified:{" "}
                 <time className="italic">{post.parent.modifiedTime}</time>
